@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+* {
+  outline: 0;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  display: block;
+  min-width: 400px;
+  margin: 1em;
+  padding: 1em;
+  width: 35em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #E4E6E8;
+  transition: 0.1s ease;
+}
+input:hover {
+  border-color: rgb(9, 36, 189);
+}
+textarea {
+  display: block;
+  min-width: 400px;
+  margin: 1em;
+  padding: 1em;
+  width: 35em;
+  height: 8em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #E4E6E8;
+  transition: 0.1s ease;
+}
+button {
+  margin: 0.8em;
+  position: center;
+  padding: 1em;
+  border: 1px solid #E4E6E8;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+button:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
